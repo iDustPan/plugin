@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^4.2.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "name": "addon_hello",
+  "version": "1.0.1",
+  "main": "test.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iDustPan/node_addon_hello.git"
+  },
+  "author": "pan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iDustPan/node_addon_hello/issues"
+  },
+  "homepage": "https://github.com/iDustPan/node_addon_hello#readme",
+  "description": ""
+}
